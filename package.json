@@ -1,0 +1,22 @@
+{
+  "name": "isocrypto",
+  "version": "0.0.1",
+  "description": "An oversimplified, asynchronous, isomorphic crypto library.",
+  "main": "isocrypto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Scott Kaye",
+  "license": "ISC",
+  "dependencies": {
+    "node-rsa": "^0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottKaye/isocrypto.git"
+  },
+  "engine": {
+    "node": ">= v6.0.0"
+  }
+}
