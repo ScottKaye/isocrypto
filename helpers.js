@@ -1,6 +1,4 @@
-let isClient = false;
-try { isClient = window.hasOwnProperty("document"); }
-catch(e) { }
+let isClient = typeof window !== "undefined";
 
 // Special thanks to Nicholas Cerminara's base64 encode/decoder
 // https://scotch.io/tutorials/how-to-encode-and-decode-strings-with-base64-in-javascript
