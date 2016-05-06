@@ -97,7 +97,6 @@ class Symmetric {
 
 					window.crypto.subtle.decrypt(algo, key, encrypted)
 						.then(decrypted => {
-							console.log(new Uint8Array(decrypted));
 							resolve(helpers.CollectionToString(new Uint8Array(decrypted)));
 						}).catch(reject);
 				});

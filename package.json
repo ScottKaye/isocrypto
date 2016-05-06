@@ -1,6 +1,6 @@
 {
   "name": "isocrypto",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An oversimplified, asynchronous, isomorphic crypto library.",
   "main": "isocrypto.js",
   "scripts": {
